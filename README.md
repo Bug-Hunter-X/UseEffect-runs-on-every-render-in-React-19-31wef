@@ -1,0 +1,3 @@
+# React 19 useEffect Performance Issue
+
+This repository demonstrates a common performance issue in React 19 involving the `useEffect` hook.  The provided code incorrectly omits the dependency array in `useEffect`, causing the effect to run on every render, leading to unnecessary work and potential performance degradation. The solution shows how to fix this problem.  See `bug.js` for the problematic code and `bugSolution.js` for the corrected version.
